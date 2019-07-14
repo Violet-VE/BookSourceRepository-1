@@ -3,10 +3,10 @@
     "summary": "Provided links and based on github.com",
     "list": [{
         "name": "拈花小说",
-        "url": "http://www.nianhuaxs.com",
+        "url": "http://m.nianhuaxs.com",
         "category": 2,
         "rank": 3,
         "auth": false,
-        "version": 105
+        "version": 106
     }]
 }

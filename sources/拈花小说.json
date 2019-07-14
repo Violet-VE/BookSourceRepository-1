@@ -1,19 +1,16 @@
 {
     "name": "拈花小说",
-    "version": 105,
+    "version": 106,
     "category": 2,
-    "url": "http://www.nianhuaxs.com",
+    "url": "http://m.nianhuaxs.com",
     "charset": "utf-8",
     "metadata": {
-        "name": ["h3 > a"],
-        "author": ["span:nth-child(3)"],
-        "cover": ["img@attr->src"],
-        "summary": ["span.js"],
-        "lastChapter": ["span:nth-child(5) > a"],
-        "link": ["span:nth-child(6) > a@attr->href"]
+        "name": ["a"],
+        "author": ["span.author"],
+        "link": ["a@attr->href"]
     },
     "catalog": {
-        "list": "li.list-group-item",
+        "list": "ul.ghhs > li",
         "orderBy": 0,
         "chapter": {
             "name": "a",
@@ -21,25 +18,25 @@
         }
     },
     "content": {
-        "text": "#content"
+        "text": "div#text"
     },
     "search": {
-        "link": "http://www.nianhuaxs.com/search/articlename/${key}",
-        "list": "div.lfinfo"
+        "link": "http://m.nianhuaxs.com/search/articlename/${key}",
+        "list": "ul.ghhs > li"
     },
     "rank": {
         "link": [{
             "name": "最新更新",
-            "url": "http://www.nianhuaxs.com/list/lastupdate/"
+            "url": "http://m.nianhuaxs.com/list/lastupdate/"
         },{
             "name": "最新入库",
-            "url": "http://www.nianhuaxs.com/list/postdate/"
+            "url": "http://m.nianhuaxs.com/list/postdate/"
         },{
             "name": "总点击榜",
-            "url": "http://www.nianhuaxs.com/list/allvisit/"
+            "url": "http://m.nianhuaxs.com/list/allvisit/"
         }
     ],
-        "list": "div.lfinfo",
+        "list": "ul.ghhs > li",
         "page": {
             "index": 1,
             "limit": 30,
