@@ -2,7 +2,7 @@
     "name": "拈花小说",
     "version": 100,
     "category": 2,
-    "url": "http://m.nianhuaxs.com",
+    "url": "http://www.nianhuaxs.com",
     "charset": "utf-8",
     "metadata": {
         "name": ["h3 > a"],
@@ -34,11 +34,6 @@
             "url": "http://www.nianhuaxs.com/list/lastupdate/"
         }],
         "list": "div.col-md-12.col-xs-12>div.lfinfo",
-        "page": {
-            "index": 1,
-            "limit": 30,
-            "begin": "",
-            "next": ""
-        }
+
     }
 }
