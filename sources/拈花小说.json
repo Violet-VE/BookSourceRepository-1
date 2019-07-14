@@ -25,8 +25,8 @@
         "text": "#txtContent"
     },
     "search": {
-        "link": "http://www.wzzw.la/search.htm?keyword=${key}",
-        "list": "#novel-list > ul > li.clearfix:gt(0)"
+        "link": "http://www.nianhuaxs.com/search/articlename/${key}",
+        "list": "div.col-md-12.col-xs-12>div.lfinfo"
     },
     "rank": {
         "link": [{
@@ -34,6 +34,11 @@
             "url": "http://www.nianhuaxs.com/list/lastupdate/"
         }],
         "list": "div.col-md-12.col-xs-12>div.lfinfo",
-
+        "page": {
+            "index": 1,
+            "limit": 30,
+            "begin": "",
+            "next": "${index}.htm"
+          }
     }
 }

@@ -6,7 +6,7 @@
         "url": "http://www.nianhuaxs.com",
         "category": 2,
         "rank": 1,
-        "auth": false,
+        "auth": true,
         "version": 101
-    }]
+    },]
 }
