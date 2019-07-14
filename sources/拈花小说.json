@@ -1,6 +1,6 @@
 {
     "name": "拈花小说",
-    "version": 103,
+    "version": 104,
     "category": 2,
     "url": "http://m.nianhuaxs.com",
     "charset": "utf-8",
@@ -35,6 +35,9 @@
         },{
             "name": "最新入库",
             "url": "http://m.nianhuaxs.com/list/postdate/"
+        },{
+            "name": "总点击榜",
+            "url": "http://m.nianhuaxs.com/list/allvisit/"
         }
     ],
         "list": "div.lfinfo",
