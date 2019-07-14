@@ -2,11 +2,25 @@
     "name": "TEST",
     "summary": "Provided links and based on github.com",
     "list": [{
+        "name": "落霞小说",
+        "url": "https://www.luoxia.com/",
+        "category": 0,
+        "rank": 6,
+        "auth": false,
+        "version": 100
+    },{
         "name": "拈花小说",
         "url": "http://m.nianhuaxs.com",
         "category": 2,
         "rank": 3,
         "auth": false,
         "version": 106
+    },{
+        "name": "鉛筆小说",
+        "url": "https://www.x23qb.com/",
+        "category": 2,
+        "rank": 3,
+        "auth": false,
+        "version": 100
     }]
 }

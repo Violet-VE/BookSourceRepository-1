@@ -1,0 +1,60 @@
+{
+  "name": "落霞小说",
+  "version": 100,
+  "category": 0,
+  "url": "https://www.luoxia.com/",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["a>h2"],
+    "author": ["span.pop-intro"],
+    "cover": ["img@attr->src"],
+    "category": ["span.pop-intro"],
+    "link": ["a@attr->href"]
+  },
+  "catalog": {
+    "list": "div.book-list > ul > li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#nr1 > p",
+    "next": {
+      "link": "li.next > a",
+      "text": "下一章"
+    }
+  },
+  "search": {
+    "link": "https://www.luoxia.com/?s=${key}",
+    "list": "li.pop-book2"
+  },
+  "rank": {
+    "link": [{
+        "name": "中文经典",
+        "link": "https://www.luoxia.com/jingdian/"
+      },
+      {
+        "name": "外国名著",
+        "link": "https://www.luoxia.com/mingzhu/"
+      },
+      {
+        "name": "言情穿越",
+        "link": "https://www.luoxia.com/yanqing/"
+      }, {
+        "name": "悬疑推理",
+        "link": "https://www.luoxia.com/xuanyi/"
+      },
+      {
+        "name": "影视原著",
+        "link": "https://www.luoxia.com/yuanzhu/"
+      },
+      {
+        "name": "金庸作品集",
+        "link": "https://www.luoxia.com/jinyong/"
+      }
+    ],
+    "list": "li.pop-book2"
+  }
+}

@@ -1,0 +1,57 @@
+{
+    "name": "鉛筆小说",
+    "version": 100,
+    "category": 2,
+    "url": "https://www.x23qb.com/",
+    "charset": "utf-8",
+    "metadata": {
+      "name": [".book-title", "meta[property=og:novel:book_name]@attr->content"],
+      "author": [".book-author", "meta[property=og:novel:author]@attr->content"],
+      "cover": ["img@attr->data-echo@js->'https://m.sanyuedev.top' + ${this}", "meta[property=og:image]@attr->content"],
+      "summary": [".book-desc", "meta[property=og:description]@attr->content"],
+      "category": ["em.tag-small:nth-child(1)", "meta[property=og:novel:category]@attr->content"],
+      "status": ["meta[property=og:novel:status]@attr->content"],
+      "update": ["meta[property=og:novel:update_time]@attr->content"],
+      "lastChapter": ["meta[property=og:novel:latest_chapter_name]@attr->content"],
+      "link": ["a@attr->href"],
+      "catalog": ["div.novel-header-r > a@attr->href"]
+    },
+    "catalog": {
+      "list": "ol.novel-text-list > li",
+      "orderBy": 0,
+      "chapter": {
+        "name": "a",
+        "link": "a@attr->href"
+      }
+    },
+    "content": {
+      "text": "#rd-txt > p"
+    },
+    "search": {
+      "link": "https://m.sanyuedev.top/search.html@post->searchkey=${key}",
+      "list": "li.book-li > a"
+    },
+    "rank": {
+      "link": [
+        {
+          "name": "点击排行",
+          "link": "https://m.sanyuedev.top/top/allvisit"
+        },
+        {
+          "name": "收藏排行",
+          "link": "https://m.sanyuedev.top/top/marknum"
+        },
+        {
+          "name": "最新入库",
+          "link": "https://m.sanyuedev.top/top/postdate"
+        }
+      ],
+      "list": "li.book-li > a",
+      "page": {
+        "index": 1,
+        "limit": 15,
+        "begin": ".html",
+        "next": "/${index}.html"
+      }
+    }
+  }

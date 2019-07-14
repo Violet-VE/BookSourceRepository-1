@@ -28,20 +28,19 @@
         "link": [{
             "name": "最新更新",
             "url": "http://m.nianhuaxs.com/list/lastupdate/"
-        },{
+        }, {
             "name": "最新入库",
             "url": "http://m.nianhuaxs.com/list/postdate/"
-        },{
+        }, {
             "name": "总点击榜",
             "url": "http://m.nianhuaxs.com/list/allvisit/"
-        }
-    ],
+        }],
         "list": "ul.ghhs > li",
         "page": {
             "index": 1,
             "limit": 30,
             "begin": "",
             "next": "${index}.htm"
-          }
+        }
     }
 }
