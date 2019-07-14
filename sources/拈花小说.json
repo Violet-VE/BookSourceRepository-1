@@ -32,7 +32,11 @@
         "link": [{
             "name": "最新更新",
             "url": "http://m.nianhuaxs.com/list/lastupdate/"
-        }],
+        },{
+            "name": "最新入库",
+            "url": "http://m.nianhuaxs.com/list/postdate/"
+        }
+    ],
         "list": "div.container > div.row.mt10 > div:nth-child(1) > div:nth-child(3)",
         "page": {
             "index": 1,
