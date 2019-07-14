@@ -1,0 +1,12 @@
+{
+    "name": "TEST",
+    "summary": "Provided links and based on github.com",
+    "list": [{
+        "name": "拈花小说",
+        "url": "http://m.nianhuaxs.com",
+        "category": 2,
+        "rank": 0,
+        "auth": "Guimi",
+        "version": 100
+    }]
+}

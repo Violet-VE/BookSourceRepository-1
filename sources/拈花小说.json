@@ -1,0 +1,44 @@
+{
+    "name": "拈花小说",
+    "version": 100,
+    "category": 2,
+    "url": "http://m.nianhuaxs.com",
+    "charset": "utf-8",
+    "metadata": {
+        "name": ["h3 > a"],
+        "author": ["span:nth-child(3)"],
+        "cover": ["img"],
+        "summary": ["span.js"],
+        "category": [""],
+        "lastChapter": ["span:nth-child(5) > a"],
+        "link": ["span:nth-child(6) > a@attr->href"]
+    },
+    "catalog": {
+        "list": "",
+        "orderBy": 0,
+        "chapter": {
+            "name": "a",
+            "link": "a@attr->href"
+        }
+    },
+    "content": {
+        "text": "#txtContent"
+    },
+    "search": {
+        "link": "http://www.wzzw.la/search.htm?keyword=${key}",
+        "list": "#novel-list > ul > li.clearfix:gt(0)"
+    },
+    "rank": {
+        "link": [{
+            "name": "最新更新",
+            "url": "http://www.nianhuaxs.com/list/lastupdate/"
+        }],
+        "list": "div.col-md-12.col-xs-12>div.lfinfo",
+        "page": {
+            "index": 1,
+            "limit": 30,
+            "begin": "",
+            "next": ""
+        }
+    }
+}
