@@ -5,8 +5,8 @@
         "name": "拈花小说",
         "url": "http://www.nianhuaxs.com",
         "category": 2,
-        "rank": 0,
-        "auth": "Guimi",
+        "rank": 1,
+        "auth": false,
         "version": 101
     }]
 }
