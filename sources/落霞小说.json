@@ -21,10 +21,6 @@
   },
   "content": {
     "text": "#nr1 > p",
-    "next": {
-      "link": "li.next > a",
-      "text": "下一章"
-    }
   },
   "search": {
     "link": "https://www.luoxia.com/?s=${key}",
