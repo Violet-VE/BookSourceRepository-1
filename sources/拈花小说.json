@@ -1,20 +1,20 @@
 {
     "name": "拈花小说",
-    "version": 101,
+    "version": 102,
     "category": 2,
-    "url": "http://www.nianhuaxs.com",
+    "url": "http://m.nianhuaxs.com",
     "charset": "utf-8",
     "metadata": {
         "name": ["h3 > a"],
         "author": ["span:nth-child(3)"],
-        "cover": ["img"],
+        "cover": ["img@attr->src"],
         "summary": ["span.js"],
         "category": [""],
         "lastChapter": ["span:nth-child(5) > a"],
         "link": ["span:nth-child(6) > a@attr->href"]
     },
     "catalog": {
-        "list": "",
+        "list": "div.zhangjie > ul > li:nth-child(2)",
         "orderBy": 0,
         "chapter": {
             "name": "a",
@@ -22,7 +22,7 @@
         }
     },
     "content": {
-        "text": "#txtContent"
+        "text": "#content"
     },
     "search": {
         "link": "http://www.nianhuaxs.com/search/articlename/${key}",
