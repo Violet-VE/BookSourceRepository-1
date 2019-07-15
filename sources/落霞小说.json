@@ -1,6 +1,6 @@
 {
   "name": "落霞小说",
-  "version": 105,
+  "version": 106,
   "category": 0,
   "url": "https://www.luoxia.com/",
   "charset": "utf-8",
@@ -8,15 +8,16 @@
     "name": ["a>h2", "a"],
     "author": ["span.pop-intro@js->${this}.match('([^/]+)$')[1]"],
     "cover": ["img@attr->src"],
-    "summary":["describe-html>p"],
+    "summary":["div.describe-html>p"],
     "category": ["span.pop-intro@js->${this}.replace(/([/][^/]+)$/,'')"],
-    "update":["div.book-describe > p:nth-child(5)"],
-    "lastChapter":["div.book-describe > p:nth-child(6) > a"],
+    "status":["div.book-describe > p:nth-child(4)@js->${this}.replace('状态：','')"],
+    "update":["div.book-describe > p:nth-child(5)@js->${this}.replace('最近更新：','')"],
+    "lastChapter":["div.book-describe > p:nth-child(6) > a@js->${this}.replace('最新章节：','')"],
     "link": ["a@attr->href"]
   },
   "catalog": {
     "list": "div.book-list > ul > li",
-    "orderBy": 2,
+    "orderBy": 3,
     "chapter": {
       "name": "a",
       "link": "a@attr->href"
