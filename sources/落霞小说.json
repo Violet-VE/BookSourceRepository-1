@@ -13,7 +13,7 @@
   },
   "catalog": {
     "list": "div.book-list > ul > li",
-    "orderBy": 1,
+    "orderBy": 2,
     "chapter": {
       "name": "a",
       "link": "a@attr->href"
