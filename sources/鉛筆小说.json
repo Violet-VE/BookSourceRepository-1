@@ -1,6 +1,6 @@
 {
     "name": "鉛筆小说",
-    "version": 101,
+    "version": 102,
     "category": 2,
     "url": "https://www.x23qb.com/",
     "charset": "gbk",
@@ -20,7 +20,7 @@
       "orderBy": 0,
       "chapter": {
         "name": "a",
-        "link": "a@attr->href@js->'https://www.x23qb.com' + ${this}"
+        "link": "a@attr->href"
       }
     },
     "content": {
