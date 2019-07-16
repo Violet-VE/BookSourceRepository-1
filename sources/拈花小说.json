@@ -1,6 +1,6 @@
 {
     "name": "拈花小说",
-    "version": 113,
+    "version": 114,
     "category": 2,
     "url": "http://m.nianhuaxs.com",
     "charset": "utf-8",
@@ -29,5 +29,24 @@
     "search": {
         "link": "http://m.nianhuaxs.com/search/articlename/${key}",
         "list": "ul.ghhs > li"
+    },
+    "rank": {
+        "link": [{
+            "name": "最新更新",
+            "url": "http://m.nianhuaxs.com/list/lastupdate/"
+        }, {
+            "name": "最新入库",
+            "url": "http://m.nianhuaxs.com/list/postdate/"
+        }, {
+            "name": "总点击榜",
+            "url": "http://m.nianhuaxs.com/list/allvisit/"
+        }],
+        "list": "ul.ghhs > li",
+        "page": {
+            "index": 1,
+            "limit": 24,
+            "begin": "",
+            "next": "/${index}.htm"
+        }
     }
 }
