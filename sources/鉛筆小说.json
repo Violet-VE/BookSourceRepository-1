@@ -1,56 +1,79 @@
 {
-    "name": "鉛筆小说",
-    "version": 102,
-    "category": 2,
-    "url": "https://www.x23qb.com/",
-    "charset": "gbk",
-    "metadata": {
-      "name": ["dd>h3>a"],
-      "author": ["","span.p_author>a"],
-      "cover": ["dt>a>img@attr->_src","#bookimg>img@attr->src"],
-      "summary": ["dd.book_des","#bookintro>p"],
-      "category": ["dd.book_other > span:nth-child(1)"],
-      "status": ["dd.book_other > span:nth-child(2)"],
-      "update": ["h3>span.uptime"],
-      "lastChapter": ["dd.book_other>a"],
-      "link": ["h3>a@attr->href"]
-    },
-    "catalog": {
-      "list": "#chapterList>li",
-      "orderBy": 0,
-      "chapter": {
-        "name": "a",
-        "link": "a@attr->href"
+  "name": "鉛筆小说",
+  "version": 103,
+  "category": 2,
+  "url": "https://www.x23qb.com/",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["dd>h3>a"],
+    "author": ["", "span.p_author>a"],
+    "cover": ["dt>a>img@attr->_src", "#bookimg>img@attr->src"],
+    "summary": ["dd.book_des", "#bookintro>p"],
+    "category": ["dd.book_other > span:nth-child(1)"],
+    "status": ["dd.book_other > span:nth-child(2)"],
+    "update": ["h3>span.uptime"],
+    "lastChapter": ["dd.book_other>a"],
+    "link": ["h3>a@attr->href"]
+  },
+  "catalog": {
+    "list": "#chapterList>li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#TextContent",
+    "next": {
+      "link": "#readbg > p > a:nth-child(5)",
+      "text": "下一章"
+    }
+  },
+  "search": {
+    "link": "https://www.x23qb.com/search.php@post->searchkey=${key}",
+    "list": "#sitebox > #nr"
+  },
+  "rank": {
+    "link": [{
+        "name": "言情女生",
+        "link": "https://www.x23qb.com/yanqing/"
+      },
+      {
+        "name": "玄幻奇幻",
+        "link": "https://www.x23qb.com/xuanhuan/"
+      },
+      {
+        "name": "都市青春",
+        "link": "https://www.x23qb.com/dushi/"
+      },
+      {
+        "name": "武侠仙侠",
+        "link": "https://www.x23qb.com/wuxia/"
+      },
+      {
+        "name": "耽美同人",
+        "link": "https://www.x23qb.com/danmei/"
+      },
+      {
+        "name": "科幻灵异",
+        "link": "https://www.x23qb.com/kehuan/"
+      },
+      {
+        "name": "轻小说",
+        "link": "https://www.x23qb.com/lightnovel/"
+      },
+      {
+        "name": "历史军事",
+        "link": "https://www.x23qb.com/lishi/"
       }
-    },
-    "content": {
-      "text": "#TextContent"
-    },
-    "search": {
-      "link": "https://www.x23qb.com/search.php@post->searchkey=${key}",
-      "list": "#sitebox > #nr"
-    },
-    "rank": {
-      "link": [
-        {
-          "name": "言情女生",
-          "link": "https://www.x23qb.com/yanqing/"
-        },
-        {
-          "name": "玄幻奇幻",
-          "link": "https://www.x23qb.com/xuanhuan/"
-        },
-        {
-          "name": "都市青春",
-          "link": "https://www.x23qb.com/dushi/"
-        }
-      ],
-      "list": "#sitebox>dl",
-      "page": {
-        "index": 1,
-        "limit": 30,
-        "begin": "",
-        "next": "/${index}/"
-      }
+    ],
+    "list": "#sitebox>dl",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "",
+      "next": "/${index}/"
     }
   }
+}
