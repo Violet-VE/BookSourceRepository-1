@@ -1,6 +1,6 @@
 {
     "name": "拈花小说",
-    "version": 112,
+    "version": 113,
     "category": 2,
     "url": "http://m.nianhuaxs.com",
     "charset": "utf-8",
@@ -24,11 +24,7 @@
         }
     },
     "content": {
-        "text": ".box>#text",
-        "next": {
-            "link": "#pb_next",
-            "text": "下一章"
-        }
+        "text": ".box>#text"
     },
     "search": {
         "link": "http://m.nianhuaxs.com/search/articlename/${key}",
