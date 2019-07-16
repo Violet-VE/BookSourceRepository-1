@@ -1,6 +1,6 @@
 {
     "name": "拈花小说",
-    "version": 107,
+    "version": 108,
     "category": 2,
     "url": "http://m.nianhuaxs.com",
     "charset": "utf-8",
@@ -12,7 +12,7 @@
         "status": ["","ul.book_info > li:nth-child(3) > font"],
         "lastChapter": ["","ul.book_info > li:nth-child(7) > font > a"],
         "link": ["a@attr->href"],
-        "catalog": ["h2.menu > a@attr->href@js->'http://m.nianhuaxs.com'+${this}"]
+        "catalog": ["h2.menu > a@attr->href"]
     },
     "catalog": {
         "list": "ul.ghhs > li",
