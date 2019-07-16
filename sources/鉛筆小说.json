@@ -3,21 +3,20 @@
     "version": 100,
     "category": 2,
     "url": "https://www.x23qb.com/",
-    "charset": "utf-8",
+    "charset": "gbk",
     "metadata": {
-      "name": [".book-title", "meta[property=og:novel:book_name]@attr->content"],
-      "author": [".book-author", "meta[property=og:novel:author]@attr->content"],
-      "cover": ["img@attr->data-echo@js->'https://m.sanyuedev.top' + ${this}", "meta[property=og:image]@attr->content"],
-      "summary": [".book-desc", "meta[property=og:description]@attr->content"],
-      "category": ["em.tag-small:nth-child(1)", "meta[property=og:novel:category]@attr->content"],
-      "status": ["meta[property=og:novel:status]@attr->content"],
-      "update": ["meta[property=og:novel:update_time]@attr->content"],
-      "lastChapter": ["meta[property=og:novel:latest_chapter_name]@attr->content"],
-      "link": ["a@attr->href"],
-      "catalog": ["div.novel-header-r > a@attr->href"]
+      "name": ["dd>h3>a"],
+      "author": ["","span.p_author>a"],
+      "cover": ["dt>a>img@attr->_src","#bookimg>img@attr->src"],
+      "summary": ["dd.book_des","#bookintro>p"],
+      "category": ["dd.book_other > span:nth-child(1)"],
+      "status": ["dd.book_other > span:nth-child(2)"],
+      "update": ["h3>span.uptime"],
+      "lastChapter": ["dd.book_other>a"],
+      "link": ["h3>a@attr->href"]
     },
     "catalog": {
-      "list": "ol.novel-text-list > li",
+      "list": "#chapterList>li",
       "orderBy": 0,
       "chapter": {
         "name": "a",
@@ -25,7 +24,7 @@
       }
     },
     "content": {
-      "text": "#rd-txt > p"
+      "text": "#TextContent > p"
     },
     "search": {
       "link": "https://m.sanyuedev.top/search.html@post->searchkey=${key}",
@@ -34,24 +33,24 @@
     "rank": {
       "link": [
         {
-          "name": "点击排行",
-          "link": "https://m.sanyuedev.top/top/allvisit"
+          "name": "言情女生",
+          "link": "https://www.x23qb.com/yanqing/"
         },
         {
-          "name": "收藏排行",
-          "link": "https://m.sanyuedev.top/top/marknum"
+          "name": "玄幻奇幻",
+          "link": "https://www.x23qb.com/xuanhuan/"
         },
         {
-          "name": "最新入库",
-          "link": "https://m.sanyuedev.top/top/postdate"
+          "name": "都市青春",
+          "link": "https://www.x23qb.com/dushi/"
         }
       ],
-      "list": "li.book-li > a",
+      "list": "#sitebox>dl",
       "page": {
         "index": 1,
-        "limit": 15,
-        "begin": ".html",
-        "next": "/${index}.html"
+        "limit": 30,
+        "begin": "",
+        "next": "/${index}/"
       }
     }
   }
