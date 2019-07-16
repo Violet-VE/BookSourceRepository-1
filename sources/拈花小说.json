@@ -7,7 +7,12 @@
     "metadata": {
         "name": ["a"],
         "author": ["span.author"],
-        "link": ["a@attr->href"]
+        "summary": ["p.pd10"],
+        "category": ["ul.book_info > li:nth-child(2) > font > a"],
+        "status": ["ul.book_info > li:nth-child(3) > font"],
+        "lastChapter": ["ul.book_info > li:nth-child(7) > font > a"],
+        "link": ["a@attr->href"],
+        "catalog": ["h2.menu > a@attr->href@js->'http://m.nianhuaxs.com'+${this}"]
     },
     "catalog": {
         "list": "ul.ghhs > li",
@@ -18,7 +23,11 @@
         }
     },
     "content": {
-        "text": "div#text"
+        "text": "div#text",
+        "next": {
+            "link": "#pb_next",
+            "text": "下一章"
+        }
     },
     "search": {
         "link": "http://m.nianhuaxs.com/search/articlename/${key}",
