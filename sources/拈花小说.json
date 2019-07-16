@@ -1,16 +1,16 @@
 {
     "name": "拈花小说",
-    "version": 106,
+    "version": 107,
     "category": 2,
     "url": "http://m.nianhuaxs.com",
     "charset": "utf-8",
     "metadata": {
         "name": ["a"],
         "author": ["span.author"],
-        "summary": ["p.pd10"],
-        "category": ["ul.book_info > li:nth-child(2) > font > a"],
-        "status": ["ul.book_info > li:nth-child(3) > font"],
-        "lastChapter": ["ul.book_info > li:nth-child(7) > font > a"],
+        "summary": ["","p.pd10"],
+        "category": ["","ul.book_info > li:nth-child(2) > font > a"],
+        "status": ["","ul.book_info > li:nth-child(3) > font"],
+        "lastChapter": ["","ul.book_info > li:nth-child(7) > font > a"],
         "link": ["a@attr->href"],
         "catalog": ["h2.menu > a@attr->href@js->'http://m.nianhuaxs.com'+${this}"]
     },
