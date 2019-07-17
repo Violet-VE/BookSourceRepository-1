@@ -1,6 +1,6 @@
 {
     "name": "麦田小说",
-    "version": 102,
+    "version": 103,
     "category": 1,
     "url": "http://www.mtxs.me",
     "charset": "utf-8",
@@ -16,7 +16,7 @@
         "link": ["a@attr->href"]
     },
     "catalog": {
-        "list": "div.main-line > div.book-part-list > ul > li",
+        "list": "div.main-line > div.book-part-list:nth-child(2) > ul > li",
         "orderBy": 0,
         "chapter": {
             "name": "a",
