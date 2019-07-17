@@ -8,19 +8,26 @@
         "rank": 6,
         "auth": false,
         "version": 108
-    },{
+    }, {
         "name": "拈花小说",
         "url": "http://m.nianhuaxs.com",
         "category": 2,
         "rank": 3,
         "auth": false,
         "version": 115
-    },{
+    }, {
         "name": "鉛筆小说",
         "url": "https://www.x23qb.com/",
         "category": 2,
         "rank": 3,
         "auth": false,
         "version": 103
+    }, {
+        "name": "麦田小说",
+        "url": "http://www.mtxs.me",
+        "category": 1,
+        "rank": 8,
+        "auth": false,
+        "version": 100
     }]
 }
