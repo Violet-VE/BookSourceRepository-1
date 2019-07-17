@@ -1,6 +1,6 @@
 {
   "name": "落霞小说",
-  "version": 108,
+  "version": 109,
   "category": 0,
   "url": "https://www.luoxia.com/",
   "charset": "utf-8",
@@ -32,7 +32,7 @@
   },
   "search": {
     "link": "https://www.luoxia.com/?s=${key}",
-    "list": "div.search-list > ul > li"
+    "list": ".cat-search-item"
   },
   "rank": {
     "link": [{
