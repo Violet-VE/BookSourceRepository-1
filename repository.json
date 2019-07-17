@@ -22,12 +22,5 @@
         "rank": 8,
         "auth": false,
         "version": 103
-    },{
-        "name": "看书神站",
-        "url": "https://www.kanshushenzhan.com",
-        "category":  1,
-        "rank":  2,
-        "auth": false,
-        "version": 100
     }]
 }
