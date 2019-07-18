@@ -5,68 +5,67 @@
     "url": "https://xiaoshuogui.com",
     "charset": "gbk",
     "metadata": {
-      "name": ["dd>h3>a"],
-      "author": ["", "span.p_author>a"],
-      "cover": ["dt>a>img@attr->_src", "#bookimg>img@attr->src"],
-      "summary": ["dd.book_des", "#bookintro>p"],
-      "category": ["dd.book_other > span:nth-child(1)"],
-      "status": ["dd.book_other > span:nth-child(2)"],
-      "update": ["h3>span.uptime"],
-      "lastChapter": ["dd.book_other>a"],
-      "link": ["h3>a@attr->href"]
+        "name": ["dd>h3>a"],
+        "author": ["", "span.p_author>a"],
+        "cover": ["dt>a>img@attr->_src", "#bookimg>img@attr->src"],
+        "summary": ["dd.book_des", "#bookintro>p"],
+        "category": ["dd.book_other > span:nth-child(1)"],
+        "status": ["dd.book_other > span:nth-child(2)"],
+        "update": ["h3>span.uptime"],
+        "lastChapter": ["dd.book_other>a"],
+        "link": ["h3>a@attr->href"]
     },
     "catalog": {
-      "list": "#chapterList>li",
-      "orderBy": 0,
-      "chapter": {
-        "name": "a",
-        "link": "a@attr->href"
-      }
+        "list": "#chapterList>li",
+        "orderBy": 0,
+        "chapter": {
+            "name": "a",
+            "link": "a@attr->href"
+        }
     },
     "content": {
-      "text": "#TextContent",
-      "next": {
-        "link": "#readbg > p > a:nth-child(5)",
-        "text": "下一章"
-      }
+        "text": "#TextContent",
+        "next": {
+            "link": "#readbg > p > a:nth-child(5)",
+            "text": "下一章"
+        }
     },
     "search": {
-      "link": "https://xiaoshuogui.com/modules/article/search.php@post->searchkey=${key}",
-      "list": "#sitebox > #nr"
+        "link": "https://xiaoshuogui.com/modules/article/search.php@post->searchkey=${key}",
+        "list": "#sitebox > #nr"
     },
     "rank": {
-      "link": [{
-          "name": "轻の小说",
-          "link": "https://xiaoshuogui.com/lightnovel/"
-          }, {
-              "name": "玄幻奇幻",
-              "link": "https://xiaoshuogui.com/xuanhuan/"
-          }, {
-              "name": "武侠仙侠",
-              "link": "https://xiaoshuogui.com/wuxia/"
-          }, {
-              "name": "言情女生",
-              "link": "https://xiaoshuogui.com/yanqing/"
-          }, {
-              "name": "都市青春",
-              "link": "https://xiaoshuogui.com/dushi/"
-          }, {
-              "name": "耽美同人",
-              "link": "https://xiaoshuogui.com/danmei/"
-          }, {
-              "name": "科幻灵异",
-              "link": "https://xiaoshuogui.com/kehuan/"
-          }, {
-              "name": "历史军事",
+        "link": [{
+            "name": "轻の小说",
+            "link": "https://xiaoshuogui.com/lightnovel/"
+        }, {
+            "name": "玄幻奇幻",
+            "link": "https://xiaoshuogui.com/xuanhuan/"
+        }, {
+            "name": "武侠仙侠",
+            "link": "https://xiaoshuogui.com/wuxia/"
+        }, {
+            "name": "言情女生",
+            "link": "https://xiaoshuogui.com/yanqing/"
+        }, {
+            "name": "都市青春",
+            "link": "https://xiaoshuogui.com/dushi/"
+        }, {
+            "name": "耽美同人",
+            "link": "https://xiaoshuogui.com/danmei/"
+        }, {
+            "name": "科幻灵异",
+            "link": "https://xiaoshuogui.com/kehuan/"
+        }, {
+            "name": "历史军事",
             "link": "https://xiaoshuogui.com/lishi/"
+        }],
+        "list": "#sitebox>dl",
+        "page": {
+            "index": 1,
+            "limit": 30,
+            "begin": "",
+            "next": "/${index}/"
         }
-      ],
-      "list": "#sitebox>dl",
-      "page": {
-        "index": 1,
-        "limit": 30,
-        "begin": "",
-        "next": "/${index}/"
-      }
     }
-  }
+}
