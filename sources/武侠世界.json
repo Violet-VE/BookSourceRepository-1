@@ -27,7 +27,7 @@
     "rank": {
         "link": [{
             "name": "Novels",
-            "link": "https://www.wuxiaworld.com/api/novels/search@headera->Content-Type=application/json@post->{\"count\":15}"
+            "link": "https://www.wuxiaworld.com/api/novels/search@post->count=15}"
         }],
         "list": "$.items"
     }
