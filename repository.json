@@ -29,12 +29,5 @@
         "rank": 8,
         "auth": false,
         "version": 102
-    },{
-        "name": "武侠世界",
-        "url": "https://www.wuxiaworld.com",
-        "category": 1,
-        "rank": 1,
-        "auth": false,
-        "version": 101
     }]
 }
