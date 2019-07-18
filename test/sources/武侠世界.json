@@ -27,7 +27,7 @@
     "rank": {
         "link": [{
             "name": "Novels",
-            "link": ""
+            "link": "https://gitee.com/halloboy/BookSourceRepository/raw/master/src/wuxiaworld.json"
         }],
         "list": "$.items"
     }
