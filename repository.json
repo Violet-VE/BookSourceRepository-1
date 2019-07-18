@@ -3,21 +3,21 @@
     "summary": "Provided links and based on github.com/gitee.com",
     "list": [{
         "name": "落霞小说",
-        "url": "https://www.luoxia.com",
+        "url": "https://www.luoxia.com/",
         "category": 0,
         "rank": 6,
         "auth": false,
         "version": 109
     }, {
         "name": "鉛筆小说",
-        "url": "https://www.x23qb.com",
+        "url": "https://www.x23qb.com/",
         "category": 2,
         "rank": 8,
         "auth": false,
         "version": 104
     }, {
         "name": "麦田小说",
-        "url": "http://www.mtxs.me",
+        "url": "http://www.mtxs.me/",
         "category": 1,
         "rank": 8,
         "auth": false,
