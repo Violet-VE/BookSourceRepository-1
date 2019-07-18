@@ -16,7 +16,7 @@
 | 小说柜 | https://xiaoshuogui.com | 综合 | 8 | 否 | 1.0.0 |
 ---
 
-##Chang Log
+## Chang Log
 
 2019.07.17 开放暗码9251
 
