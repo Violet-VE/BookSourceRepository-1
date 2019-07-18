@@ -11,7 +11,7 @@
     }, {
         "name": "鉛筆小说",
         "url": "https://www.x23qb.com",
-        "category": 1,
+        "category": 3,
         "rank": 3,
         "auth": false,
         "version": 103
@@ -22,5 +22,12 @@
         "rank": 8,
         "auth": false,
         "version": 103
+    }, {
+        "name": "小说柜",
+        "url": "https://xiaoshuogui.com",
+        "category": 3,
+        "rank": 8,
+        "auth": false,
+        "version": 100
     }]
 }
