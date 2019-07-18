@@ -22,11 +22,19 @@
         "rank": 8,
         "auth": false,
         "version": 103
+<<<<<<< HEAD
     }, {
         "name": "小说柜",
         "url": "https://xiaoshuogui.com",
         "category": 3,
         "rank": 8,
+=======
+    },{
+        "name": "看书神站",
+        "url": "https://www.kanshushenzhan.com",
+        "category":  1,
+        "rank":  2,
+>>>>>>> parent of 17c5060... del
         "auth": false,
         "version": 100
     }]
