@@ -1,6 +1,6 @@
 {
     "name": "武侠世界",
-    "version": 100,
+    "version": 101,
     "category": 1,
     "url": "https://www.wuxiaworld.com",
     "charset": "utf-8",
@@ -27,7 +27,7 @@
     "rank": {
         "link": [{
             "name": "Novels",
-            "link": "https://www.wuxiaworld.com/api/novels/search@post->count=15}"
+            "link": "https://www.wuxiaworld.com/api/novels/search@headera->Content-Type=application/json@post->count=15}"
         }],
         "list": "$.items"
     }
