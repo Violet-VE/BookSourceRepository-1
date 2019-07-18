@@ -10,17 +10,24 @@
         "version": 109
     }, {
         "name": "鉛筆小说",
-        "url": "https://www.x23qb.com/",
-        "category": 2,
+        "url": "https://www.x23qb.com",
+        "category": 3,
         "rank": 8,
         "auth": false,
         "version": 104
     }, {
         "name": "麦田小说",
-        "url": "http://www.mtxs.me/",
+        "url": "http://www.mtxs.me",
         "category": 1,
         "rank": 8,
         "auth": false,
         "version": 103
+    }, {
+        "name": "小说柜",
+        "url": "https://xiaoshuogui.com",
+        "category": 3,
+        "rank": 8,
+        "auth": false,
+        "version": 100
     }]
 }
