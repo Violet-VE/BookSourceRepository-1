@@ -1,6 +1,6 @@
 {
     "name": "小说柜",
-    "version": 100,
+    "version": 101,
     "category": 3,
     "url": "https://xiaoshuogui.com",
     "charset": "gbk",
@@ -13,7 +13,7 @@
       "status": ["dd.book_other > span:nth-child(2)"],
       "update": ["h3>span.uptime"],
       "lastChapter": ["dd.book_other>a"],
-      "link": ["h3>a@attr->href"]
+      "link": ["h3>a@attr->href@js->replace('/book','')"]
     },
     "catalog": {
       "list": "#chapterList>li",
