@@ -1,6 +1,6 @@
 {
     "name": "武侠世界",
-    "version": 104,
+    "version": 105,
     "category": 1,
     "url": "https://www.wuxiaworld.com",
     "charset": "utf-8",
@@ -8,7 +8,6 @@
         "name": ["$.name"],
         "author": ["div.media-body > dl > dd:nth-child(4)"],
         "cover": ["$.coverUrl","div.media-left > a > img"],
-        "summary": ["$.synopsis@js->${this}.replace(' ','_')"],
         "category": ["$.genres"],
         "link": ["$.slug@js->'https://www.wuxiaworld.com/novel/'+${this}"]
     },
@@ -22,7 +21,7 @@
     },
     "content": {
         "text": "div.fr-view>p",
-        "filter":["div.fr-view>p:nth-child(1)"]
+        "filter":["p:nth-child(1)"]
     },
     "rank": {
         "link": [{
