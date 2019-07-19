@@ -1,12 +1,5 @@
 {
     "name": "TEST",
     "summary": "Guimi的本地测试库",
-    "list": [{
-        "name": "武侠世界",
-        "url": "https://www.wuxiaworld.com",
-        "category": 1,
-        "rank": 1,
-        "auth": false,
-        "version": 107
-    }]
+    "list": []
 }

@@ -1,6 +1,6 @@
 {
     "name": "武侠世界",
-    "version": 101,
+    "version": 100,
     "category": 1,
     "url": "https://www.wuxiaworld.com",
     "charset": "utf-8",
@@ -8,9 +8,7 @@
         "name": ["$.name"],
         "author": ["div.media-body > dl > dd:nth-child(4)"],
         "cover": ["$.coverUrl","div.media-left > a > img"],
-        "summary": ["$.synopsis","div.fr-view > p"],
         "category": ["$.genres"],
-        "status": ["$.status"],
         "link": ["$.slug@js->'https://www.wuxiaworld.com/novel/'+${this}"]
     },
     "catalog": {
@@ -22,12 +20,12 @@
         }
     },
     "content": {
-        "text": "div.fr-view>p"
+        "text": "div.fr-view:not(div[class=fr-view panel-body hidden])>p"
     },
     "rank": {
         "link": [{
             "name": "Novels",
-            "link": "https://www.wuxiaworld.com/api/novels/search@headera->Content-Type=application/json@post->count=15}"
+            "link": "https://gitee.com/halloboy/BookSourceRepository/raw/master/src/wuxiaworld.json"
         }],
         "list": "$.items"
     }
