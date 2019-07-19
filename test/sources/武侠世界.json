@@ -8,9 +8,7 @@
         "name": ["$.name"],
         "author": ["div.media-body > dl > dd:nth-child(4)"],
         "cover": ["$.coverUrl","div.media-left > a > img"],
-        "summary": ["$.synopsis","div.fr-view > p"],
         "category": ["$.genres"],
-        "status": ["$.status"],
         "link": ["$.slug@js->'https://www.wuxiaworld.com/novel/'+${this}"]
     },
     "catalog": {
