@@ -1,6 +1,6 @@
 {
     "name": "武侠世界",
-    "version": 105,
+    "version": 106,
     "category": 1,
     "url": "https://www.wuxiaworld.com",
     "charset": "utf-8",
@@ -21,7 +21,7 @@
     },
     "content": {
         "text": "div.fr-view>p",
-        "filter":["p:nth-child(1)"]
+        "filter":["@p:nth-child(1)"]
     },
     "rank": {
         "link": [{
