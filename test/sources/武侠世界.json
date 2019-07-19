@@ -1,6 +1,6 @@
 {
     "name": "武侠世界",
-    "version": 100,
+    "version": 102,
     "category": 1,
     "url": "https://www.wuxiaworld.com",
     "charset": "utf-8",
@@ -8,6 +8,7 @@
         "name": ["$.name"],
         "author": ["div.media-body > dl > dd:nth-child(4)"],
         "cover": ["$.coverUrl","div.media-left > a > img"],
+        "summary": ["div.fr-view@js->${this}.replace(' ','_')"],
         "category": ["$.genres"],
         "link": ["$.slug@js->'https://www.wuxiaworld.com/novel/'+${this}"]
     },
