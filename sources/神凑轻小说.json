@@ -1,17 +1,17 @@
 {
     "name": "神凑轻小说",
-    "version": 102,
+    "version": 103,
     "category": 2,
     "url": "http://www.shencou.com",
     "charset": "gb2312",
     "metadata": {
-        "name": ["div:nth-child(2)> b > a"],
-        "author": ["div:nth-child(2)>p:nth-child(2)@js->${this}.replace('著作作者：','')"],
-        "cover": ["div:nth-child(1) > a > img@attr->src"],
+        "name": ["td.odd > a","div:nth-child(2)> b > a"],
+        "author": ["td:nth-child(3)","div:nth-child(2)>p:nth-child(2)@js->${this}.replace('著作作者：','')"],
+        "cover": ["","div:nth-child(1) > a > img@attr->src", "#content > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2) > a:nth-child(1) > img@attr->src"],
         "summary": ["#content > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2)"],
-        "update": ["div:nth-child(2) > p:nth-child(3)"],
-        "lastChapter": ["div:nth-child(2) > p:nth-child(4) > a"],
-        "link": ["div:nth-child(2)> b > a@attr->href"],
+        "update": ["td:nth-child(5)","div:nth-child(2) > p:nth-child(3)"],
+        "lastChapter": ["td:nth-child(2) > a","div:nth-child(2) > p:nth-child(4) > a"],
+        "link": ["td:nth-child(1) > a@attr->href","div:nth-child(2)> b > a@attr->href"],
         "catalog": ["div:nth-child(2) > p:nth-child(6) > a:nth-child(1)@attr->href"]
     },
     "catalog": {
@@ -28,7 +28,11 @@
     },
     "content": {
         "text": "body",
-        "filter":["@div","@h1","@center"]
+        "filter": ["@div", "@h1", "@center"]
+    },
+    "search": {
+        "link": "http://www.shencou.com/modules/article/search.php@post->searchtype=articlename++selected&searchkey=${key}",
+        "list": "tr:not(tr[align])"
     },
     "rank": {
         "link": [{
