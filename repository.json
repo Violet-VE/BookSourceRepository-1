@@ -36,5 +36,13 @@
         "rank": 1,
         "auth": false,
         "version": 100
+    }, {
+        "name": "神凑轻小说",
+        "url": "http://www.shencou.com",
+        "category": 2,
+        "rank": 3,
+        "auth": false,
+        "version": 100,
+        "beta": true
     }]
 }
