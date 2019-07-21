@@ -43,5 +43,13 @@
         "rank": 3,
         "auth": false,
         "version": 100
+    },{
+        "name": "叮当小说",
+        "url": "https://www.guxs.net",
+        "category":  1,
+        "rank":  2,
+        "auth": false,
+        "version": 100,
+        "beta":true
     }]
 }
