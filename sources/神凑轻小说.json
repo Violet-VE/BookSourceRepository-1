@@ -28,7 +28,7 @@
     },
     "content": {
         "text": "#content",
-        "filter": ["h1"]
+        "filter": ["@h1"]
     },
     "rank": {
         "link": [{
@@ -46,7 +46,7 @@
             "index": 1,
             "limit": 14,
             "begin": "",
-            "next": "&amp;page=${index}"
+            "next": "&page=${index}"
         }
     }
 }
