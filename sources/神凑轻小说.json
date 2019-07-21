@@ -1,6 +1,6 @@
 {
     "name": "神凑轻小说",
-    "version": 101,
+    "version": 102,
     "category": 2,
     "url": "http://www.shencou.com",
     "charset": "gb2312",
@@ -27,7 +27,8 @@
         }
     },
     "content": {
-        "text": "body>:not(div):not(h1):not(script):not(center)"
+        "text": "body",
+        "filter":["@div","@h1","@center"]
     },
     "rank": {
         "link": [{
