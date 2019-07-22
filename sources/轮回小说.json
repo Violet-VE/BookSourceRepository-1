@@ -1,13 +1,13 @@
 {
     "name": "轮回小说",
-    "version": 101,
+    "version": 102,
     "category": 1,
     "url": "https://www.9xs.org",
     "charset": "gbk",
     "metadata": {
         "name": ["h3 > a"],
         "author": ["p.tags > span:nth-child(1) > a","li.zz"],
-        "cover":["a > img@attr->data-original@js->'https:'+${this}",".f1_L > a > img@attr->src@js->'https:'+${this}"],
+        "cover":["a > img@attr->data-original@js->'https:'+${this}","",".f1_L > a > img@attr->src@js->'https:'+${this}"],
         "summary": [".int","#book_desc"],
         "category": ["p.tags > span:nth-child(2) > a","li.lb > a"],
         "status":["p.tags > span:nth-child(3)@js->${this}.replace('状态：','')"],
