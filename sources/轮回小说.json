@@ -45,7 +45,7 @@
             "name": "全本",
             "link": "https://www.9xs.org/quanben/1.html"
         }],
-        "list": ".whole > ol > li > ul:not(.list_h)",
+        "list": ".whole > ol > li:nth-of-type(n+2)",
         "page":{
             "index":1,
             "limit":50,
