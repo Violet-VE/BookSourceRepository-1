@@ -1,6 +1,6 @@
 {
     "name": "轮回小说",
-    "version": 100,
+    "version": 101,
     "category": 1,
     "url": "https://www.9xs.org",
     "charset": "gbk",
@@ -45,12 +45,6 @@
             "name": "全本",
             "link": "https://www.9xs.org/quanben/1.html"
         }],
-        "list": ".whole > ol > li:nth-of-type(n+2)",
-        "page":{
-            "index":1,
-            "limit":50,
-            "begin":"1.html",
-            "next":"${index}+.html"
-        }
+        "list": ".whole > ol > li:nth-of-type(n+2)"
     }
 }
