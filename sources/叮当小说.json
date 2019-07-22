@@ -7,7 +7,7 @@
     "metadata": {
         "name": ["h1 > a"],
         "author": [".s2"],
-        "cover": ["div.sCboxBookParL.left > a > img@attr->data-original"],
+        "cover": ["div.sCboxBookParL.left > a > img@attr->data-original@js->'https:'+${this}"],
         "summary": [".c@js->${this}.replace('内容介绍：','')"],
         "category": ["div.tips.clearfix > a"],
         "status":["div.tips.clearfix > a:nth-child(2)"],
