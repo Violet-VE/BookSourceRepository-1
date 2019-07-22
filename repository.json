@@ -55,9 +55,9 @@
         "name": "轮回小说",
         "url": "https://www.9xs.org",
         "category":  1,
-        "rank":  4,
+        "rank":  3,
         "auth": false,
-        "version": 102,
+        "version": 103,
         "beta":true
     }]
 }

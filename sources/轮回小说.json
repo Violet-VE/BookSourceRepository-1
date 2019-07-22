@@ -1,13 +1,13 @@
 {
     "name": "轮回小说",
-    "version": 102,
+    "version": 103,
     "category": 1,
     "url": "https://www.9xs.org",
     "charset": "gbk",
     "metadata": {
         "name": ["h3 > a"],
         "author": ["p.tags > span:nth-child(1) > a","li.zz"],
-        "cover":["a > img@attr->data-original@js->'https:'+${this}","",".f1_L > a > img@attr->src@js->'https:'+${this}"],
+        "cover":["a > img@attr->data-original@js->'https:'+${this}",".f1_L > a > img@attr->data-original@js->'https:'+${this}"],
         "summary": [".int","#book_desc"],
         "category": ["p.tags > span:nth-child(2) > a","li.lb > a"],
         "status":["p.tags > span:nth-child(3)@js->${this}.replace('状态：','')"],
@@ -35,9 +35,6 @@
         "link": [{
             "name": "书库",
             "link": "https://www.9xs.org/sort/"
-        },{
-            "name": "排行",
-            "link": "https://www.9xs.org/list/allvisit_1.html"
         },{
             "name": "新书",
             "link": "https://www.9xs.org/list/postdate_1.html"
