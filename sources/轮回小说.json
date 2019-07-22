@@ -1,0 +1,56 @@
+{
+    "name": "轮回小说",
+    "version": 100,
+    "category": 1,
+    "url": "https://www.9xs.org",
+    "charset": "gbk",
+    "metadata": {
+        "name": ["h3 > a"],
+        "author": ["p.tags > span:nth-child(1) > a","li.zz"],
+        "cover":["a > img@attr->data-original@js->'https:'+${this}",".f1_L > a > img@attr->src@js->'https:'+${this}"],
+        "summary": [".int","#book_desc"],
+        "category": ["p.tags > span:nth-child(2) > a","li.lb > a"],
+        "status":["p.tags > span:nth-child(3)@js->${this}.replace('状态：','')"],
+        "update": ["div.right > span@js->${this}.replace('更新时间：','')","li.rq"],
+        "lastChapter": ["p:nth-child(3) > a","li.gx > a"],
+        "link": ["h3 > a@attr->href"],
+        "catalog": [".mulu@attr->href"]
+    },
+    "catalog": {
+        "list": "#listsss > div > li",
+        "orderBy": 0,
+        "chapter": {
+            "name": "a",
+            "link": "a@attr->href"
+        }
+    },
+    "content": {
+        "text": "#txt>dd:not(dd[data-id=999])"
+    },
+    "search": {
+        "link": "https://www.9xs.org/search.php@post->key=${key}",
+        "list": ".result > ul > li"
+    },
+    "rank": {
+        "link": [{
+            "name": "书库",
+            "link": "https://www.9xs.org/sort/"
+        },{
+            "name": "排行",
+            "link": "https://www.9xs.org/list/allvisit_1.html"
+        },{
+            "name": "新书",
+            "link": "https://www.9xs.org/list/postdate_1.html"
+        },{
+            "name": "全本",
+            "link": "https://www.9xs.org/quanben/1.html"
+        }],
+        "list": ".whole > ol > li > ul:not(.list_h)",
+        "page":{
+            "index":1,
+            "limit":50,
+            "begin":"1.html",
+            "next":"${index}+.html"
+        }
+    }
+}
