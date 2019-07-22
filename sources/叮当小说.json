@@ -10,7 +10,7 @@
         "cover": ["div.sCboxBookParL.left > a > img@attr->data-original"],
         "summary": [".c@js->${this}.replace('内容介绍：','')"],
         "category": ["div.tips.clearfix > a"],
-        "status":["","","div.tips.clearfix > a:nth-child(2)"],
+        "status":["div.tips.clearfix > a:nth-child(2)"],
         "update": [".time2@js->${this}.replace('更新时间：','')"],
         "lastChapter": ["div.bottom.clearfix > a"],
         "link": ["h1 > a@attr->href"],

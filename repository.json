@@ -49,6 +49,7 @@
         "category":  1,
         "rank":  2,
         "auth": false,
-        "version": 100
+        "version": 100,
+        "beta":true
     }]
 }
