@@ -19,9 +19,13 @@
 | 小说柜 | https://xiaoshuogui.com | 综合 | 8 | 否 | 1.0.0 |
 | 武侠世界 | https://www.wuxiaworld.com | 网文 | 1 | 否 | 1.0.0 |
 | 神凑轻小说 | http://www.shencou.com | 轻小说 | 3 | 否 | 1.0.0 |
+| 叮当小说`beta` | https://www.guxs.net | 网文 | 1 | 否 | 1.0.0 |
+| 轮回小说`beta` | https://www.9xs.org | 网文 | 1 | 否 | 1.0.0 |
 ---
 
 ## Chang Log
+
+2019.07.22 新增 `叮当小说`、`轮回小说` beta版
 
 2019.07.21 新增 `神凑轻小说`
 
