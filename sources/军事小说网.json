@@ -1,0 +1,71 @@
+{
+    "name": "军事小说网",
+    "version": 100,
+    "category": 1,
+    "url": "http://jsnovel.com",
+    "charset": "gb2312",
+    "metadata": {
+        "name": ["td:nth-child(2) > a"],
+        "author": ["td:nth-child(5)"],
+        "summary": ["td > font","#table4 > tbody > tr > td > table > tbody > tr > td > table:nth-child(1) > tbody > tr > td > table:nth-child(3) > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(1)"],
+        "cover":["","#table4 > tbody > tr > td > table > tbody > tr > td > table:nth-child(1) > tbody > tr > td > table:nth-child(3) > tbody > tr > td:nth-child(1) > img@attr->src"],
+        "category": ["tr:nth-child(1) > td:nth-child(1)"],
+        "status": ["tr:nth-child(1) > td:nth-child(6)","tbody > tr > td:nth-child(6)"],
+        "update": ["tr:nth-child(1) > td:nth-child(4)","td:nth-child(4)"],
+        "lastChapter": [" td:nth-child(3) > a"," a > font"],
+        "link": ["td:nth-child(2) > a@attr->href"],
+        "catalog": ["#table1 > tbody > tr > td:nth-child(1) > a@attr->href"]
+    },
+    "catalog": {
+        "list": "table > tbody > tr > td[align=left]",
+        "orderBy": 0,
+        "chapter": {
+            "name": "a",
+            "link": "a@attr->href"
+        }
+    },
+    "content": {
+        "text": "#content"
+    },
+    "search": {
+        "link": "http://jsnovel.com/search.asp@post->key_type=list_name&key_keyword=${key}&submit=搜索",
+        "list": "table:nth-child(2) > tbody > tr:nth-child(2) > td > table[height=100%]:nth-of-type(n+2)"
+    },
+    "rank": {
+        "link": [{
+            "name": "秦汉——明清",
+            "link": "http://jsnovel.com/list_book.asp?id=1&booktype1=2&booktype2=0&page="
+        },{
+            "name": "三国—魏蜀吴",
+            "link": "http://jsnovel.com/list_book.asp?id=1&booktype1=69&booktype2=0&page="
+        },{
+            "name": "清末——民初",
+            "link": "http://jsnovel.com/list_book.asp?id=1&booktype1=3&booktype2=0&page="
+        },{
+            "name": "一战——二战",
+            "link": "http://jsnovel.com/list_book.asp?id=1&booktype1=4&booktype2=0&page="
+        },{
+            "name": "1949——1979",
+            "link": "http://jsnovel.com/list_book.asp?id=1&booktype1=5&booktype2=0&page="
+        },{
+            "name": "1979——未来",
+            "link": "http://jsnovel.com/list_book.asp?id=1&booktype1=6&booktype2=0&page="
+        },{
+            "name": "末世危机小说",
+            "link": "http://jsnovel.com/list_book.asp?id=1&booktype1=76&booktype2=0&page="
+        },{
+            "name": "其它军事小说",
+            "link": "http://jsnovel.com/list_book.asp?id=1&booktype1=7&booktype2=0&page="
+        },{
+            "name": "其它网络小说",
+            "link": "http://jsnovel.com/list_book.asp?id=2&booktype1=0&booktype2=0&page="
+        }],
+        "list": "#table4 > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-child(2) > td > table > tbody > tr:not(tr[align=middle])",
+        "page":{
+            "index":1,
+            "limit":50,
+            "begin":"1",
+            "next":"${index}"
+        }
+    }
+}

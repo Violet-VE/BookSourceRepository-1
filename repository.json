@@ -51,6 +51,13 @@
         "auth": false,
         "version": 100
     }, {
+        "name": "军事小说网",
+        "url": "http://jsnovel.com",
+        "category": 1,
+        "rank": 9,
+        "auth": false,
+        "version": 100
+    }, {
         "name": "下书网",
         "url": "https://www.shutxt.com",
         "category": 3,
