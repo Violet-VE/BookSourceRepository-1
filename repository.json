@@ -64,7 +64,7 @@
         "category": 1,
         "rank": 2,
         "auth": false,
-        "version": 101,
+        "version": 100,
         "beta": true
     }, {
         "name": "轮回小说",
@@ -72,7 +72,7 @@
         "category": 1,
         "rank": 3,
         "auth": false,
-        "version": 101,
+        "version": 100,
         "beta": true
     }]
 }

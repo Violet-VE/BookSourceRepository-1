@@ -1,18 +1,18 @@
 {
     "name": "轮回小说",
-    "version": 101,
+    "version": 100,
     "category": 1,
     "url": "https://www.9xs.org",
     "charset": "gbk",
     "metadata": {
         "name": ["h3 > a"],
-        "author": ["p.tags > span:nth-child(1) > a","li.zz"],
-        "cover":["a > img@attr->data-original@js->'https:'+${this}",".f1_L > a > img@attr->data-original@js->'https:'+${this}"],
-        "summary": [".int","#book_desc"],
-        "category": ["p.tags > span:nth-child(2) > a","li.lb > a"],
-        "status":["p.tags > span:nth-child(3)@js->${this}.replace('状态：','')"],
-        "update": ["div.right > span@js->${this}.replace('更新时间：','')","li.rq"],
-        "lastChapter": ["p:nth-child(3) > a","li.gx > a"],
+        "author": ["p.tags > span:nth-child(1) > a", "li.zz"],
+        "cover": ["a > img@attr->data-original@js->'https:'+${this}", ".f1_L > a > img@attr->data-original@js->'https:'+${this}"],
+        "summary": [".int", "#book_desc"],
+        "category": ["p.tags > span:nth-child(2) > a", "li.lb > a"],
+        "status": ["p.tags > span:nth-child(3)@js->${this}.replace('状态：','')"],
+        "update": ["div.right > span@js->${this}.replace('更新时间：','')", "li.rq"],
+        "lastChapter": ["p:nth-child(3) > a", "li.gx > a"],
         "link": ["h3 > a@attr->href"],
         "catalog": [".mulu@attr->href"]
     },
@@ -25,11 +25,7 @@
         }
     },
     "content": {
-        "text": "#txt>dd:not(dd[data-id=999])",
-        "next": {
-            "link": "div.zjqh > span.xyz > a",
-            "text": "下一章"
-        }
+        "text": "#txt>dd:not(dd[data-id=999])"
     },
     "search": {
         "link": "https://www.9xs.org/search.php@post->key=${key}",
@@ -39,10 +35,10 @@
         "link": [{
             "name": "书库",
             "link": "https://www.9xs.org/sort/"
-        },{
+        }, {
             "name": "新书",
             "link": "https://www.9xs.org/list/postdate_1.html"
-        },{
+        }, {
             "name": "全本",
             "link": "https://www.9xs.org/quanben/1.html"
         }],

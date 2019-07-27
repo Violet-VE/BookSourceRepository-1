@@ -1,6 +1,6 @@
 {
     "name": "叮当小说",
-    "version": 101,
+    "version": 100,
     "category": 1,
     "url": "https://www.guxs.net",
     "charset": "gbk",
@@ -10,7 +10,7 @@
         "cover": ["div.sCboxBookParL.left > a > img@attr->data-original@js->'https:'+${this}"],
         "summary": [".c@js->${this}.replace('内容介绍：','')"],
         "category": ["div.tips.clearfix > a"],
-        "status":["div.tips.clearfix > a:nth-child(2)"],
+        "status": ["div.tips.clearfix > a:nth-child(2)"],
         "update": [".time2@js->${this}.replace('更新时间：','')"],
         "lastChapter": ["div.bottom.clearfix > a"],
         "link": ["h1 > a@attr->href"],
@@ -25,11 +25,7 @@
         }
     },
     "content": {
-        "text": "#txt>dd:not(dd[data-id=999])",
-        "next": {
-            "link": "div.zjqh > span.xyz > a",
-            "text": "下一章"
-        }
+        "text": "#txt>dd:not(dd[data-id=999])"
     },
     "search": {
         "link": "https://www.guxs.net/search.html@post->key=${key}",
@@ -39,7 +35,7 @@
         "link": [{
             "name": "排行",
             "link": "https://www.guxs.net/hot.html"
-        },{
+        }, {
             "name": "新书",
             "link": "https://www.guxs.net/new.html"
         }],
