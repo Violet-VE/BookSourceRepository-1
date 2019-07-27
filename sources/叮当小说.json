@@ -1,6 +1,6 @@
 {
     "name": "叮当小说",
-    "version": 100,
+    "version": 101,
     "category": 1,
     "url": "https://www.guxs.net",
     "charset": "gbk",
@@ -25,7 +25,11 @@
         }
     },
     "content": {
-        "text": "#txt>dd:not(dd[data-id=999])"
+        "text": "#txt>dd:not(dd[data-id=999])",
+        "next": {
+            "link": "div.zjqh > span.xyz > a",
+            "text": "下一章"
+        }
     },
     "search": {
         "link": "https://www.guxs.net/search.html@post->key=${key}",

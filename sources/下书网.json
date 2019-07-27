@@ -23,7 +23,11 @@
         }
     },
     "content": {
-        "text": ".zw"
+        "text": ".zw",
+        "next": {
+          "link": "#main > div.np > a:nth-child(2)",
+          "text": "下一章"
+        }
     },
     "search": {
         "link": "https://www.shutxt.com/e/search/index.php@post->show=title&entry=1&keyboard=${key}",
