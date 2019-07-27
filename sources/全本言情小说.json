@@ -3,7 +3,7 @@
     "version": 100,
     "category": 1,
     "url": "http://www.qbyq.net",
-    "charset": "",
+    "charset": "utf-8",
     "metadata": {
         "name": ["td:nth-child(1) > a", "strong > a"],
         "author": ["li.storelistbt5a > p:nth-child(3)@js->${this}.replace('作者：','')"],
