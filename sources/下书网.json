@@ -1,0 +1,84 @@
+{
+    "name": "下书网",
+    "version": 100,
+    "category": 3,
+    "url": "https://www.shutxt.com",
+    "charset": "utf-8",
+    "metadata": {
+        "name": ["h3 > a"],
+        "author": ["", "div.bintro > h3 > span > a"],
+        "cover": ["", "div.bpic > img@attr->src"],
+        "summary": [".tp@js->${this}.replace('简介：','')", "div.bintro > div > p:nth-child(2)@js->${this}.replace('简介：','')"],
+        "category": ["", "div.xinxi > ul > li:nth-child(2) > a"],
+        "update": ["", "div.xinxi > ul > li:nth-child(6)@js->${this}.replace('更新时间：','')"],
+        "lastChapter": ["", "div.bintro > div > p:nth-child(1) > a"],
+        "link": ["a@attr->href"]
+    },
+    "catalog": {
+        "list": "td > ul > li",
+        "orderBy": 0,
+        "chapter": {
+            "name": "a",
+            "link": "a@attr->href"
+        }
+    },
+    "content": {
+        "text": ".zw"
+    },
+    "search": {
+        "link": "https://www.shutxt.com/e/search/index.php@post->show=title&entry=1&keyboard=${key}",
+        "list": ".sbintro"
+    },
+    "rank": {
+        "link": [{
+            "name": "现代名著",
+            "link": "https://www.shutxt.com/mz/"
+        }, {
+            "name": "青春校园",
+            "link": "https://www.shutxt.com/xiaoyuan/"
+        }, {
+            "name": "耽美小说",
+            "link": "https://www.shutxt.com/danmei/"
+        }, {
+            "name": "现代言情",
+            "link": "https://www.shutxt.com/yq/"
+        }, {
+            "name": "古代言情",
+            "link": "https://www.shutxt.com/guyan/"
+        }, {
+            "name": "悬疑小说",
+            "link": "https://www.shutxt.com/xy/"
+        }, {
+            "name": "恐怖小说",
+            "link": "https://www.shutxt.com/kongbu/"
+        },{
+            "name": "玄幻仙侠",
+            "link": "https://www.shutxt.com/xh/"
+        },{
+            "name": "武侠小说",
+            "link": "https://www.shutxt.com/wx/"
+        },{
+            "name": "网游小说",
+            "link": "https://www.shutxt.com/wy/"
+        },{
+            "name": "历史小说",
+            "link": "https://www.shutxt.com/ls/"
+        },{
+            "name": "生活科普",
+            "link": "https://www.shutxt.com/sh/"
+        },{
+            "name": "励志书籍",
+            "link": "https://www.shutxt.com/lz/"
+        },{
+            "name": "人文传记",
+            "link": "https://www.shutxt.com/zj/"
+        }],
+        "list": ".bbox",
+        "page": {
+            "index": 2,
+            "limit": 30,
+            "begin": "",
+            "next": "index_${index}.html"
+        }
+    }
+}
