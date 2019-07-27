@@ -1,0 +1,66 @@
+{
+    "name": "全本言情小说",
+    "version": 100,
+    "category": 1,
+    "url": "http://www.qbyq.net",
+    "charset": "",
+    "metadata": {
+        "name": ["td:nth-child(1) > a", "strong > a"],
+        "author": ["li.storelistbt5a > p:nth-child(3)@js->${this}.replace('作者：','')"],
+        "cover": ["li.storelistbt5a > a > img@attr->src"],
+        "summary": ["li.storelistbt5a > p:nth-child(4)"],
+        "link": ["td:nth-child(1) > a@attr->href", "strong > a@attr->href"]
+    },
+    "catalog": {
+        "list": "#readlist > ul > li",
+        "orderBy": 0,
+        "chapter": {
+            "name": "a",
+            "link": "a@attr->href"
+        }
+    },
+    "content": {
+        "text": "#content > p"
+    },
+    "search": {
+        "link": "http://www.qbyq.net/so/default.aspx?type=1&key=${key}",
+        "list": ".storelistbt5"
+    },
+    "rank": {
+        "link": [{
+            "name": "最新全本",
+            "link": "http://www.qbyq.net/category/1_1_1.aspx"
+        }, {
+            "name": "都市言情",
+            "link": "http://www.qbyq.net/category/18_1_1.aspx"
+        }, {
+            "name": "现代言情",
+            "link": "http://www.qbyq.net/category/19_1_1.aspx"
+        }, {
+            "name": "古代言情",
+            "link": "http://www.qbyq.net/category/12_1_1.aspx"
+        }, {
+            "name": "总裁豪门",
+            "link": "http://www.qbyq.net/category/13_1_1.aspx"
+        }, {
+            "name": "宫斗小说",
+            "link": "http://www.qbyq.net/category/14_1_1.aspx"
+        }, {
+            "name": "校园言情",
+            "link": "http://www.qbyq.net/category/15_1_1.aspx"
+        }, {
+            "name": "穿越小说",
+            "link": "http://www.qbyq.net/category/16_1_1.aspx"
+        }, {
+            "name": "架空小说",
+            "link": "http://www.qbyq.net/category/17_1_1.aspx"
+        }],
+        "list": ".storelistbt5",
+        "page": {
+            "index": 1,
+            "limit": 20,
+            "begin": "1.aspx",
+            "next": "${index}.aspx"
+        }
+    }
+}

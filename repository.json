@@ -2,62 +2,71 @@
     "name": "Guimi",
     "summary": "Provided links and based on github.com/gitee.com",
     "list": [{
-        "name": "落霞小说",
-        "url": "https://www.luoxia.com",
-        "category": 0,
-        "rank": 6,
-        "auth": false,
-        "version": 109
-    }, {
-        "name": "鉛筆小说",
-        "url": "https://www.x23qb.com",
-        "category": 3,
-        "rank": 8,
-        "auth": false,
-        "version": 104
-    }, {
-        "name": "麦田小说",
-        "url": "http://www.mtxs.me",
-        "category": 1,
-        "rank": 8,
-        "auth": false,
-        "version": 103
-    }, {
-        "name": "小说柜",
-        "url": "https://xiaoshuogui.com",
-        "category": 3,
-        "rank": 8,
-        "auth": false,
-        "version": 102
-    }, {
-        "name": "武侠世界",
-        "url": "https://www.wuxiaworld.com",
-        "category": 1,
-        "rank": 1,
-        "auth": false,
-        "version": 100
-    }, {
-        "name": "神凑轻小说",
-        "url": "http://www.shencou.com",
-        "category": 2,
-        "rank": 3,
-        "auth": false,
-        "version": 100
-    },{
-        "name": "叮当小说",
-        "url": "https://www.guxs.net",
-        "category":  1,
-        "rank":  2,
-        "auth": false,
-        "version": 100,
-        "beta":true
-    },{
-        "name": "轮回小说",
-        "url": "https://www.9xs.org",
-        "category":  1,
-        "rank":  3,
-        "auth": false,
-        "version": 100,
-        "beta":true
-    }]
+            "name": "落霞小说",
+            "url": "https://www.luoxia.com",
+            "category": 0,
+            "rank": 6,
+            "auth": false,
+            "version": 109
+        }, {
+            "name": "鉛筆小说",
+            "url": "https://www.x23qb.com",
+            "category": 3,
+            "rank": 8,
+            "auth": false,
+            "version": 104
+        }, {
+            "name": "麦田小说",
+            "url": "http://www.mtxs.me",
+            "category": 1,
+            "rank": 8,
+            "auth": false,
+            "version": 103
+        }, {
+            "name": "小说柜",
+            "url": "https://xiaoshuogui.com",
+            "category": 3,
+            "rank": 8,
+            "auth": false,
+            "version": 102
+        }, {
+            "name": "武侠世界",
+            "url": "https://www.wuxiaworld.com",
+            "category": 1,
+            "rank": 1,
+            "auth": false,
+            "version": 100
+        }, {
+            "name": "神凑轻小说",
+            "url": "http://www.shencou.com",
+            "category": 2,
+            "rank": 3,
+            "auth": false,
+            "version": 100
+        }, {
+            "name": "全本言情小说",
+            "url": "http://www.qbyq.net",
+            "category": 1,
+            "rank": 9,
+            "auth": false,
+            "version": 100
+        },
+        {
+            "name": "叮当小说",
+            "url": "https://www.guxs.net",
+            "category": 1,
+            "rank": 2,
+            "auth": false,
+            "version": 100,
+            "beta": true
+        }, {
+            "name": "轮回小说",
+            "url": "https://www.9xs.org",
+            "category": 1,
+            "rank": 3,
+            "auth": false,
+            "version": 100,
+            "beta": true
+        }
+    ]
 }
