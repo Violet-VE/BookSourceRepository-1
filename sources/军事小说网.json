@@ -6,7 +6,7 @@
     "charset": "gb2312",
     "metadata": {
         "name": ["td:nth-child(2) > a","td.font > font"],
-        "author": ["td:nth-child(5)"],
+        "author": ["td:nth-child(5)","#table4 > tbody > tr > td > table > tbody > tr > td > table:nth-child(1) > tbody > tr > td > table:nth-child(1) > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2)@js->${this}.replace('作 者：','')"],
         "summary": ["td > font","#table4 > tbody > tr > td > table > tbody > tr > td > table:nth-child(1) > tbody > tr > td > table:nth-child(3) > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(1)"],
         "cover":["","#table4 > tbody > tr > td > table > tbody > tr > td > table:nth-child(1) > tbody > tr > td > table:nth-child(3) > tbody > tr > td:nth-child(1) > img@attr->src"],
         "category": ["tr:nth-child(1) > td:nth-child(1)"],
