@@ -5,12 +5,12 @@
     "url": "https://github.com/jaywcjlove/linux-command",
     "charset": "utf-8",
     "metadata": {
-        "name": ["h1",""],
+        "name": ["h1","h1:not(.public)"],
         "summary": ["article > p:nth-child(2)"],    
         "link": [".final-path@js->'https://github.com/jaywcjlove/linux-command/blob/master/command/'+${this}"]
     },
     "catalog": {
-        "list": "html",
+        "list": "head",
         "orderBy": 0,
         "chapter": {
             "name": "h1:not(.public)",
@@ -22,6 +22,6 @@
     },
     "search": {
         "link": "https://github.com/jaywcjlove/linux-command/blob/master/command/${key}.md",
-        "list": "#readme"
+        "list": ".new-discussion-timeline"
     }
 }
