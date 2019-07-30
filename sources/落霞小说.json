@@ -1,11 +1,11 @@
 {
   "name": "落霞小说",
-  "version": 109,
+  "version": 110,
   "category": 0,
   "url": "https://www.luoxia.com",
   "charset": "utf-8",
   "metadata": {
-    "name": ["a>h2", "a"],
+    "name": ["a>h2", "h1:not(#logo)"],
     "author": ["span.pop-intro@js->${this}.match('([^/]+)$')[1]"],
     "cover": ["img@attr->src"],
     "summary": ["div.describe-html>p"],

@@ -13,14 +13,14 @@
 
 | 书源 | API | 类型 | 排行榜 | 账号 | 版本 |
 | :----: | ------------- | :--: | :----: | :----: | :---: |
-| 落霞小说 | https://www.luoxia.com | 出版 | 6 | 否 | 1.0.9 |
+| 落霞小说 | https://www.luoxia.com | 出版 | 6 | 否 | 1.1.0 |
 | 鉛筆小说 | https://www.x23qb.com | 综合 | 3 | 否 | 1.0.3 |
 | 麦田小说 | http://www.mtxs.me | 网文 | 8 | 否 | 1.0.3 |
 | 小说柜 | https://xiaoshuogui.com | 综合 | 8 | 否 | 1.0.0 |
-| 武侠世界 | https://www.wuxiaworld.com | 网文 | 1 | 否 | 1.0.0 |
+| 武侠世界 | https://www.wuxiaworld.com | 网文 | 1 | 否 | 1.0.1 |
 | 神凑轻小说 | http://www.shencou.com | 轻小说 | 3 | 否 | 1.0.0 |
 | 全本言情小说 | http://www.qbyq.net | 网文 | 9 | 否 | 1.0.0 |
-| 军事小说网 | http://jsnovel.com | 网文 | 9 | 否 | 1.0.0 |
+| 军事小说网 | http://jsnovel.com | 网文 | 9 | 否 | 1.0.1 |
 | 小鸡词典`beta` | https://jikipedia.com | 4 | 0 | 否 | 1.0.0 |
 | Linux-Command`beta` | https://github.com/jaywcjlove/linux-command | 4 | 0 | 否 | 1.0.0 |
 | 下书网`beta` | https://www.shutxt.com | 综合 | 14 | 否 | 1.0.0 |
