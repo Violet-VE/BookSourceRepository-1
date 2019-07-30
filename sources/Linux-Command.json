@@ -1,0 +1,27 @@
+{
+    "name": "Linux-Command",
+    "version": 100,
+    "category": 3,
+    "url": "https://github.com/jaywcjlove/linux-command",
+    "charset": "utf-8",
+    "metadata": {
+        "name": ["h1"],
+        "summary": ["h2"],    
+        "link": ["[rel=canonical]@attr->href"]
+    },
+    "catalog": {
+        "list": "head",
+        "orderBy": 0,
+        "chapter": {
+            "name": "h1:not(.public)",
+            "link": "[rel=canonical]@attr->href"
+        }
+    },
+    "content": {
+        "text": "#readme"
+    },
+    "search": {
+        "link": "https://github.com/jaywcjlove/linux-command/blob/master/command/${key}.md",
+        "list": "#readme"
+    }
+}

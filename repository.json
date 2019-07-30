@@ -58,6 +58,14 @@
         "auth": false,
         "version": 100
     }, {
+        "name": "Linux-Command",
+        "url": "https://github.com/jaywcjlove/linux-command",
+        "category": 3,
+        "rank": 0,
+        "auth": false,
+        "version": 100,
+        "beta": true
+    }, {
         "name": "小鸡词典",
         "url": "https://jikipedia.com",
         "category": 3,
@@ -65,7 +73,7 @@
         "auth": false,
         "version": 100,
         "beta": true
-    },{
+    }, {
         "name": "下书网",
         "url": "https://www.shutxt.com",
         "category": 3,
