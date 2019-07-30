@@ -1,0 +1,27 @@
+{
+    "name": "用药助手",
+    "version": 100,
+    "category": 4,
+    "url": "http://drugs.dxy.cn",
+    "charset": "utf-8",
+    "metadata": {
+        "name": ["h3 > a", "div.fl.commend"],
+        "summary": ["div.fl > p"],
+        "link": ["h3 > a@attr->href"]
+    },
+    "catalog": {
+        "list": "html",
+        "orderBy": 0,
+        "chapter": {
+            "name": "div.fl.commend",
+            "link": "#nav > a:nth-child(1)@js->'http://drugs.dxy.cn/drug/'+${this}.match(/\\d{5,}/)[0]+'.htm'"
+        }
+    },
+    "content": {
+        "text": ".detail"
+    },
+    "search": {
+        "link": "http://drugs.dxy.cn/search/drug.htm?keyword=${key}",
+        "list": "ul.list > li"
+    }
+}

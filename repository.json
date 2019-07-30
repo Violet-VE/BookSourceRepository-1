@@ -58,6 +58,14 @@
         "auth": false,
         "version": 101
     }, {
+        "name": "用药助手",
+        "url": "http://drugs.dxy.cn",
+        "category": 4,
+        "rank": 0,
+        "auth": false,
+        "version": 100,
+        "beta": true
+    }, {
         "name": "Linux-Command",
         "url": "https://github.com/jaywcjlove/linux-command",
         "category": 4,
