@@ -6,8 +6,8 @@
     "charset": "utf-8",
     "metadata": {
         "name": ["h1"],
-        "summary": ["h2"],    
-        "link": ["[rel=canonical]@attr->href"]
+        "summary": ["article > p:nth-child(2)"],    
+        "link": [".final-path@js->'https://github.com/jaywcjlove/linux-command/blob/master/command/'+${this}"]
     },
     "catalog": {
         "list": "head",
