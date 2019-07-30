@@ -60,7 +60,7 @@
     }, {
         "name": "Linux-Command",
         "url": "https://github.com/jaywcjlove/linux-command",
-        "category": 3,
+        "category": 4,
         "rank": 0,
         "auth": false,
         "version": 100,
@@ -68,7 +68,7 @@
     }, {
         "name": "小鸡词典",
         "url": "https://jikipedia.com",
-        "category": 3,
+        "category": 4,
         "rank": 0,
         "auth": false,
         "version": 100,

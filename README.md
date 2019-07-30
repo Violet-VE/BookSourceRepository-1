@@ -21,12 +21,16 @@
 | 神凑轻小说 | http://www.shencou.com | 轻小说 | 3 | 否 | 1.0.0 |
 | 全本言情小说 | http://www.qbyq.net | 网文 | 9 | 否 | 1.0.0 |
 | 军事小说网 | http://jsnovel.com | 网文 | 9 | 否 | 1.0.0 |
+| 小鸡词典`beta` | https://jikipedia.com | 4 | 0 | 否 | 1.0.0 |
+| Linux-Command`beta` | https://github.com/jaywcjlove/linux-command | 4 | 0 | 否 | 1.0.0 |
 | 下书网`beta` | https://www.shutxt.com | 综合 | 14 | 否 | 1.0.0 |
 | 叮当小说`beta` | https://www.guxs.net | 网文 | 1 | 否 | 1.0.0 |
 | 轮回小说`beta` | https://www.9xs.org | 网文 | 1 | 否 | 1.0.0 |
 ---
 
 ## Chang Log
+
+2019.07.30 新增 `小鸡词典`、`Linux-Command` beta版
 
 2019.07.28 新增 `军事小说网`
 
