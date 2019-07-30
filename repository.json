@@ -58,6 +58,14 @@
         "auth": false,
         "version": 100
     }, {
+        "name": "小鸡词典",
+        "url": "https://jikipedia.com",
+        "category": 3,
+        "rank": 0,
+        "auth": false,
+        "version": 100,
+        "beta": true
+    },{
         "name": "下书网",
         "url": "https://www.shutxt.com",
         "category": 3,

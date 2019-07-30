@@ -1,0 +1,27 @@
+{
+    "name": "小鸡词典",
+    "version": 100,
+    "category": 3,
+    "url": "https://jikipedia.com",
+    "charset": "utf-8",
+    "metadata": {
+        "name": ["h1.title"],
+        "summary": [".content"],
+        "link": ["a@attr->href"]
+    },
+    "catalog": {
+        "list": "body",
+        "orderBy": 0,
+        "chapter": {
+            "name": "div.definition > div.full-card.container.full-card > div.section.card-middle.divider > div.title-container > h1",
+            "link": "script:nth-child(2)@js->${this}.match(/id:\"\\d+/)[0].replace('id:\"','')"
+        }
+    },
+    "content": {
+        "text": ".content"
+    },
+    "search": {
+        "link": "https://jikipedia.com/search?phrase=${key}",
+        "list": ".card-middle"
+    }
+}
