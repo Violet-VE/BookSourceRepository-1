@@ -5,12 +5,12 @@
     "url": "https://github.com/jaywcjlove/linux-command",
     "charset": "utf-8",
     "metadata": {
-        "name": ["h1"],
+        "name": ["h1",""],
         "summary": ["article > p:nth-child(2)"],    
         "link": [".final-path@js->'https://github.com/jaywcjlove/linux-command/blob/master/command/'+${this}"]
     },
     "catalog": {
-        "list": "head",
+        "list": "html",
         "orderBy": 0,
         "chapter": {
             "name": "h1:not(.public)",
