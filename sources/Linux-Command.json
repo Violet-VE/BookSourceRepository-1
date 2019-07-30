@@ -10,7 +10,7 @@
         "link": [".final-path@js->'https://github.com/jaywcjlove/linux-command/blob/master/command/'+${this}"]
     },
     "catalog": {
-        "list": "head",
+        "list": "html",
         "orderBy": 0,
         "chapter": {
             "name": "h1:not(.public)",
