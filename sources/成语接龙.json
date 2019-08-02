@@ -6,7 +6,7 @@
     "charset": "utf-8",
     "metadata": {
         "name": ["a:nth-child(1)"],
-        "summary": ["a:nth-child(1)@js->'该成语可接：'+${this}"]
+        "summary": ["a:nth-child(1)"]
     },
     "search": {
         "link": "https://chengyujielong.51240.com/${key}__chengyujielong/",
