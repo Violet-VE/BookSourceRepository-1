@@ -82,6 +82,30 @@
         "version": 100,
         "beta": true
     }, {
+        "name": "成语接龙",
+        "url": "https://chengyujielong.51240.com",
+        "category": 4,
+        "rank": 0,
+        "auth": false,
+        "version": 100,
+        "beta": true
+    }, {
+        "name": "歇后语-语面",
+        "url": "https://xiehouyu.51240.com",
+        "category": 4,
+        "rank": 0,
+        "auth": false,
+        "version": 100,
+        "beta": true
+    }, {
+        "name": "歇后语-语底",
+        "url": "https://xiehouyu.51240.com",
+        "category": 4,
+        "rank": 0,
+        "auth": false,
+        "version": 100,
+        "beta": true
+    }, {
         "name": "下书网",
         "url": "https://www.shutxt.com",
         "category": 3,

@@ -1,0 +1,15 @@
+{
+    "name": "成语接龙",
+    "version": 100,
+    "category": 4,
+    "url": "https://chengyujielong.51240.com",
+    "charset": "utf-8",
+    "metadata": {
+        "name": ["a:nth-child(1)"],
+        "summary": ["a:nth-child(1)@js->'该成语可接：'+${this}"]
+    },
+    "search": {
+        "link": "https://chengyujielong.51240.com/${key}__chengyujielong/",
+        "list": "ul.list > li"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "歇后语-语面",
+    "version": 100,
+    "category": 4,
+    "url": "https://xiehouyu.51240.com",
+    "charset": "utf-8",
+    "metadata": {
+        "name": ["td > a"],
+        "summary": ["td:nth-child(2)"]
+    },
+    "search": {
+        "link": "https://xiehouyu.51240.com/xiehouyu/?q=${key}&t=1",
+        "list": "#main_content > table > tbody > tr:nth-child(2) > td > table > tbody > tr:not(tr:nth-child(1))"
+    }
+}
