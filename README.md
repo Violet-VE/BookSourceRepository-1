@@ -31,13 +31,9 @@
 
 ## Chang Log
 
-<<<<<<< Updated upstream
-2019.07.30 新增 `小鸡词典`、`Linux-Command`、`用药助手` beta版
-=======
-2019.08.02 测试 `歇后语`、`成语接龙`
+2019.08.02 测试 `歇后语`beta版
 
-2019.07.30 新增 `小鸡词典`、`Linux-Command` beta版
->>>>>>> Stashed changes
+2019.07.30 新增 `小鸡词典`、`Linux-Command`、`用药助手` beta版
 
 2019.07.28 新增 `军事小说网`
 
