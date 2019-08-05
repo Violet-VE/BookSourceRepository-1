@@ -1,16 +1,16 @@
 {
   "name": "鉛筆小说",
-  "version": 104,
+  "version": 105,
   "category": 2,
   "url": "https://www.x23qb.com",
   "charset": "gbk",
   "metadata": {
-    "name": ["dd>h3>a"],
+    "name": ["dd>h3>a","h1"],
     "author": ["", "span.p_author>a"],
     "cover": ["dt>a>img@attr->_src", "#bookimg>img@attr->src"],
     "summary": ["dd.book_des", "#bookintro>p"],
-    "category": ["dd.book_other > span:nth-child(1)"],
-    "status": ["dd.book_other > span:nth-child(2)"],
+    "category": ["dd.book_other > span:nth-child(1)", "#count > ul > li:nth-child(1) > span"],
+    "status": ["dd.book_other > span:nth-child(2)","meta[property=og:novel:status]@attr->content"],
     "update": ["h3>span.uptime"],
     "lastChapter": ["dd.book_other>a"],
     "link": ["h3>a@attr->href"]
