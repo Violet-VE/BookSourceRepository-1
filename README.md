@@ -17,6 +17,7 @@
 | 鉛筆小说 | https://www.x23qb.com | 综合 | 3 | 否 | 1.0.5 |
 | 麦田小说 | http://www.mtxs.me | 网文 | 8 | 否 | 1.0.3 |
 | 小说柜 | https://xiaoshuogui.com | 综合 | 8 | 否 | 1.0.3 |
+| 百合小说网 | https://www.baihexs.com | 网文 | 7 | 否 | 1.0.0 |
 | 武侠世界 | https://www.wuxiaworld.com | 网文 | 1 | 否 | 1.0.1 |
 | 神凑轻小说 | http://www.shencou.com | 轻小说 | 3 | 否 | 1.0.0 |
 | 全本言情小说 | http://www.qbyq.net | 网文 | 9 | 否 | 1.0.0 |
@@ -30,6 +31,8 @@
 ---
 
 ## Change Log
+
+2019.08.28 新增`百合小说网`
 
 2019.08.21 开放所有beta
 
