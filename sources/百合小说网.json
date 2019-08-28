@@ -8,8 +8,7 @@
     "name": ["td:nth-child(1) > a","dd>h3>a", "h1"],
     "author": ["td:nth-child(3)", "#author>a"],
     "cover": ["dt>a>img@attr->src"],
-    "summary": ["dd.book_des", "#bookintro>p"],
-    "category": ["dd.book_other > span:nth-child(1)"],
+    "summary": ["dd.book_des@js->${this}.replace('[章节目录] [加入书架]','')", "#bookintro>p"],
     "status": ["td:nth-child(6)","dd.book_other > span:nth-child(2)"],
     "update": ["td:nth-child(5)","h3>span.uptime"],
     "lastChapter": ["dd.book_other>a"],
@@ -17,7 +16,7 @@
     "catalog":["#reader > a@attr->href"]
   },
   "catalog": {
-    "list": "#readerlist>li",
+    "list": "#readerlist>ul>li",
     "orderBy": 0,
     "chapter": {
       "name": "a",
