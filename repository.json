@@ -30,6 +30,13 @@
         "auth": false,
         "version": 103
     }, {
+        "name": "百合小说网",
+        "url": "https://www.baihexs.com",
+        "category": 1,
+        "rank": 7,
+        "auth": false,
+        "version": 100
+    },{
         "name": "武侠世界",
         "url": "https://www.wuxiaworld.com",
         "category": 1,

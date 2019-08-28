@@ -1,0 +1,64 @@
+{
+  "name": "百合小说网",
+  "version": 100,
+  "category": 1,
+  "url": "https://www.baihexs.com",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["dd>h3>a", "meta[property=og:title]@attr->content"],
+    "author": ["", "meta[property=og:novel:author]@attr->content", "span.p_author>a"],
+    "cover": ["dt>a>img@attr->_src", "meta[property=og:image]@attr->content"],
+    "summary": ["dd.book_des", "#bookintro>p"],
+    "category": ["dd.book_other > span:nth-child(1)", "meta[property=og:novel:category]@attr->content"],
+    "status": ["dd.book_other > span:nth-child(2)", "meta[property=og:novel:status]@attr->content"],
+    "update": ["h3>span.uptime"],
+    "lastChapter": ["dd.book_other>a"],
+    "link": ["h3>a@attr->href@js->${this}.replace('/book','')", "meta[property=og:url]@attr->content"]
+  },
+  "catalog": {
+    "list": "#chapterList>li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#TextContent"
+  },
+  "search": {
+    "link": "https://www.baihexs.com/modules/article/search.php@post->searchkey=${key}",
+    "list": "#sitebox > #nr"
+  },
+  "rank": {
+    "link": [ {
+      "name": "玄幻奇幻",
+      "link": "https://www.baihexs.com/xuanhuan/"
+    }, {
+      "name": "武侠仙侠",
+      "link": "https://www.baihexs.com/wuxia/"
+    }, {
+      "name": "都市言情",
+      "link": "https://www.baihexs.com/dushi/"
+    }, {
+      "name": "历史军事",
+      "link": "https://www.baihexs.com/lishi/"
+    }, {
+      "name": "游戏竞技",
+      "link": "https://www.baihexs.com/youxi/"
+    }, {
+      "name": "科幻灵异",
+      "link": "https://www.baihexs.com/kehuan/"
+    }, {
+      "name": "其他类型",
+      "link": "https://www.baihexs.com/qita/"
+    }],
+    "list": "#sitebox>dl",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "",
+      "next": "/${index}/"
+    }
+  }
+}
