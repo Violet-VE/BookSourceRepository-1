@@ -5,18 +5,19 @@
   "url": "https://www.baihexs.com",
   "charset": "gbk",
   "metadata": {
-    "name": ["dd>h3>a", "meta[property=og:title]@attr->content"],
-    "author": ["", "meta[property=og:novel:author]@attr->content", "span.p_author>a"],
-    "cover": ["dt>a>img@attr->_src", "meta[property=og:image]@attr->content"],
+    "name": ["td:nth-child(1) > a","dd>h3>a", "h1"],
+    "author": ["td:nth-child(3)", "#author>a"],
+    "cover": ["dt>a>img@attr->src"],
     "summary": ["dd.book_des", "#bookintro>p"],
-    "category": ["dd.book_other > span:nth-child(1)", "meta[property=og:novel:category]@attr->content"],
-    "status": ["dd.book_other > span:nth-child(2)", "meta[property=og:novel:status]@attr->content"],
-    "update": ["h3>span.uptime"],
+    "category": ["dd.book_other > span:nth-child(1)"],
+    "status": ["td:nth-child(6)","dd.book_other > span:nth-child(2)"],
+    "update": ["td:nth-child(5)","h3>span.uptime"],
     "lastChapter": ["dd.book_other>a"],
-    "link": ["h3>a@attr->href@js->${this}.replace('/book','')", "meta[property=og:url]@attr->content"]
+    "link": ["td:nth-child(1) > a@attr->href","h3>a@attr->href"],
+    "catalog":["#reader > a@attr->href"]
   },
   "catalog": {
-    "list": "#chapterList>li",
+    "list": "#readerlist>li",
     "orderBy": 0,
     "chapter": {
       "name": "a",
@@ -24,41 +25,41 @@
     }
   },
   "content": {
-    "text": "#TextContent"
+    "text": "#content"
   },
   "search": {
     "link": "https://www.baihexs.com/modules/article/search.php@post->searchkey=${key}",
-    "list": "#sitebox > #nr"
+    "list": "#nr"
   },
   "rank": {
     "link": [ {
       "name": "玄幻奇幻",
-      "link": "https://www.baihexs.com/xuanhuan/"
+      "link": "https://www.baihexs.com/fenlei/1_"
     }, {
       "name": "武侠仙侠",
-      "link": "https://www.baihexs.com/wuxia/"
+      "link": "https://www.baihexs.com/fenlei/2_"
     }, {
       "name": "都市言情",
-      "link": "https://www.baihexs.com/dushi/"
+      "link": "https://www.baihexs.com/fenlei/3_"
     }, {
       "name": "历史军事",
-      "link": "https://www.baihexs.com/lishi/"
+      "link": "https://www.baihexs.com/fenlei/4_"
     }, {
       "name": "游戏竞技",
-      "link": "https://www.baihexs.com/youxi/"
+      "link": "https://www.baihexs.com/fenlei/5_"
     }, {
       "name": "科幻灵异",
-      "link": "https://www.baihexs.com/kehuan/"
+      "link": "https://www.baihexs.com/fenlei/6_"
     }, {
       "name": "其他类型",
-      "link": "https://www.baihexs.com/qita/"
+      "link": "https://www.baihexs.com/fenlei/7_"
     }],
     "list": "#sitebox>dl",
     "page": {
       "index": 1,
       "limit": 30,
       "begin": "",
-      "next": "/${index}/"
+      "next": "${index}/"
     }
   }
 }
